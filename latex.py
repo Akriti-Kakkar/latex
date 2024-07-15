@@ -23,6 +23,10 @@ st.button(f''':red[${{text}}$]
 
 st.write(r"${}$".format(text))
 
+st.button(r"""{}
+         
+         {}""".format(text, text1))
+
 st.write(r"""{}
          
          {}""".format(text, text1))
