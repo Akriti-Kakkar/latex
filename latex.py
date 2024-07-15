@@ -22,3 +22,9 @@ st.button(f''':red[${{text}}$]
           :blue[${{text1}}$]''')
 
 st.write(r"${}$".format(text))
+
+st.write(r"""{}
+         
+         {}""".format(text, text1))
+
+st.code(text)
